@@ -404,30 +404,8 @@
       </control>
 
       <control channel="4">
-        <jointName>roll_joint</jointName>
-        <multiplier>3.14159265</multiplier>
-        <offset>-0.5</offset>
-        <servo_min>1100</servo_min>
-        <servo_max>1900</servo_max>
-        <type>COMMAND</type>
-        <cmd_topic>/gimbal/cmd_roll</cmd_topic>
-        <p_gain>3</p_gain>
-      </control>
-
-      <control channel="5">
-        <jointName>tilt_joint</jointName>
-        <multiplier>3.14159265</multiplier>
-        <offset>-0.5</offset>
-        <servo_min>1100</servo_min>
-        <servo_max>1900</servo_max>
-        <type>COMMAND</type>
-        <cmd_topic>/gimbal/cmd_tilt</cmd_topic>
-        <p_gain>3</p_gain>
-      </control>
-
-      <control channel="6">
         <jointName>yaw_joint</jointName>
-        <multiplier>3.14159265</multiplier>
+        <multiplier>4.712389</multiplier>
         <offset>-0.5</offset>
         <servo_min>1100</servo_min>
         <servo_max>1900</servo_max>
@@ -435,6 +413,18 @@
         <cmd_topic>/gimbal/cmd_yaw</cmd_topic>
         <p_gain>3</p_gain>
       </control>
+
+      <control channel="5">
+        <jointName>tilt_joint</jointName>
+        <multiplier>-2.007129</multiplier>
+        <offset>-0.7826</offset>
+        <servo_min>1100</servo_min>
+        <servo_max>1900</servo_max>
+        <type>COMMAND</type>
+        <cmd_topic>/gimbal/cmd_tilt</cmd_topic>
+        <p_gain>3</p_gain>
+      </control>
+
 
     </plugin>
 
