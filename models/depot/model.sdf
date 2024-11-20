@@ -318,27 +318,6 @@
             <parent>world</parent>
             <child>main</child>
         </joint>
-        <joint name="fan1_joint" type="revolute">
-            <parent>main</parent>
-            <child>Fan1</child>
-            <axis>
-                <xyz>0 0 1</xyz>
-            </axis>
-        </joint>
-        <joint name="fan2_joint" type="revolute">
-            <parent>main</parent>
-            <child>Fan2</child>
-            <axis>
-                <xyz>0 0 1</xyz>
-            </axis>
-        </joint>
-        <plugin filename="ignition-gazebo-joint-controller-system" name="ignition::gazebo::systems::JointController">
-            <joint_name>fan1_joint</joint_name>
-            <initial_velocity>1.0</initial_velocity>
-        </plugin>
-        <plugin filename="ignition-gazebo-joint-controller-system" name="ignition::gazebo::systems::JointController">
-            <joint_name>fan2_joint</joint_name>
-            <initial_velocity>2.0</initial_velocity>
-        </plugin>
+        
     </model>
 </sdf>
