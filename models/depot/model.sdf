@@ -260,69 +260,6 @@
                     </script>
                 </material>
             </visual>
-            <visual name="STAIRS_visual">
-                <geometry>
-                    <mesh>
-                        <scale>0.6 0.6 0.6</scale>
-                        <uri>meshes/Depot.dae</uri>
-                        <submesh>
-                            <name>STAIRS</name>
-                            <center>false</center>
-                        </submesh>
-                    </mesh>
-                </geometry>
-                <material>
-                    <diffuse>1.0 1.0 1.0</diffuse>
-                    <specular>1.0 1.0 1.0</specular>
-                    <pbr>
-                        <metal>
-                            <albedo_map>materials/textures/STAIRS_Albedo.png</albedo_map>
-                            <normal_map>materials/textures/STAIRS_Normal.png</normal_map>
-                            <metalness_map>materials/textures/STAIRS_Metalness.png</metalness_map>
-                            <roughness_map>materials/textures/STAIRS_Roughness.png</roughness_map>
-                            <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
-                        </metal>
-                    </pbr>
-                    <!-- fallback to script if no PBR support-->
-                    <script>
-                        <uri>materials/scripts/</uri>
-                        <uri>materials/textures/</uri>
-                        <name>UrbanTile/STAIRS_Diffuse</name>
-                    </script>
-                </material>
-            </visual>
-            <visual name="BOXSET_visual">
-                <geometry>
-                    <mesh>
-                        <scale>0.6 0.6 0.6</scale>
-                        <uri>meshes/Depot.dae</uri>
-                        <submesh>
-                            <name>BOXSET</name>
-                            <center>false</center>
-                        </submesh>
-                    </mesh>
-                </geometry>
-                <material>
-                    <diffuse>1.0 1.0 1.0</diffuse>
-                    <specular>1.0 1.0 1.0</specular>
-                    <pbr>
-                        <metal>
-                            <albedo_map>materials/textures/BOXSET_Albedo.png</albedo_map>
-                            <normal_map>materials/textures/BOXSET_Normal.png</normal_map>
-                            <metalness_map>materials/textures/BOXSET_Metalness.png</metalness_map>
-                            <roughness_map>materials/textures/BOXSET_Roughness.png</roughness_map>
-                            <emissive_map>materials/textures/BOXSET_Emissive.png</emissive_map>
-                            <light_map uv_set="1">materials/textures/DepotLightmap.png</light_map>
-                        </metal>
-                    </pbr>
-                    <!-- fallback to script if no PBR support-->
-                    <script>
-                        <uri>materials/scripts/</uri>
-                        <uri>materials/textures/</uri>
-                        <name>UrbanTile/BOXSET_Diffuse</name>
-                    </script>
-                </material>
-            </visual>
             <visual name="FLOOR_visual">
                 <geometry>
                     <mesh>
@@ -371,25 +308,6 @@
                     <pbr>
                         <metal>
                             <albedo_map>materials/textures/FanBack_FanBack_BaseColor.png</albedo_map>
-                        </metal>
-                    </pbr>
-                </material>
-            </visual>
-            <visual name="crates">
-                <geometry>
-                    <mesh>
-                        <scale>0.6 0.6 0.6</scale>
-                        <uri>meshes/Crates.dae</uri>
-                    </mesh>
-                </geometry>
-                <material>
-                    <diffuse>1.0 1.0 1.0</diffuse>
-                    <specular>1.0 1.0 1.0</specular>
-                    <pbr>
-                        <metal>
-                            <albedo_map>materials/textures/Crates_Crates_BaseColor.png</albedo_map>
-                            <normal_map>materials/textures/Crates_Crates_Normal.png</normal_map>
-                            <roughness_map>materials/textures/Crates_Crates_Roughness.png</roughness_map>
                         </metal>
                     </pbr>
                 </material>
