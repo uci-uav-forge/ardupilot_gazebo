@@ -1,13 +1,14 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="Skis">
+  <model name="Plane">
     <static>true</static>
     <link name="link">
-      <pose degrees="true">-1.25 0 0 0 0 0</pose>
+      <pose degrees="true">-2.5 -2.5 0 0 0 0</pose>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://skis_0/model.dae</uri>
+            <scale>1 1 1</scale>
+            <uri>model://plane_0/model.dae</uri>
           </mesh>
         </geometry>
       </visual>
