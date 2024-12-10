@@ -8,7 +8,7 @@
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
-            <pose degrees='true'>0 0 0 0 0 0 </pose>
+            <pose degrees='true'>0 0 0 90 0 0 </pose>
             <uri>model://motorcycle_0/meshes/motorcycle.glb</uri>
           </mesh>
         </geometry>

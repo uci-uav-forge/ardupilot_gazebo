@@ -6,8 +6,8 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <pose degrees="true">0 0 0 0 -90 0</pose>
-            <uri>model://stop_sign/meshes/stopsign.dae</uri>
+            <pose degrees="true">0 0 0 0 0 0</pose>
+            <uri>model://skis_0/model.dae</uri>
           </mesh>
         </geometry>
       </visual>
