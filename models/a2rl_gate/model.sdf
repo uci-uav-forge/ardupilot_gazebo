@@ -7,8 +7,8 @@
       <visual name="gate">
         <geometry>
           <mesh>
-            <!-- <scale>0.5 0.5 0.5</scale> -->
-            <scale>0.268 0.268 0.268</scale>
+            <scale>0.5 0.5 0.5</scale>
+            <!-- <scale>0.268 0.268 0.268</scale> -->
             <uri>model://a2rl_gate/gate.dae</uri>
           </mesh>
         </geometry>
