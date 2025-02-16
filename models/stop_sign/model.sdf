@@ -6,7 +6,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <pose degrees="true">0 0 0 0 -90 0</pose>
+            <pose degrees="true">0 0 0 0 0 0</pose>
             <uri>model://stop_sign/meshes/stopsign.dae</uri>
           </mesh>
         </geometry>
