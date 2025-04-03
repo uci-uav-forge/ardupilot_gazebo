@@ -1,0 +1,25 @@
+<sdf version="1.9">
+  <model name="a2rl_gate">
+    <static>true</static>
+    <pose>0 0 0 0 0 0</pose>
+
+    <link name="gate">
+      <visual name="gate">
+        <geometry>
+          <mesh>
+            <scale>0.5 0.5 0.5</scale>
+            <uri>model://a2rl_gate/gate.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="gate_collision">
+        <geometry>
+          <mesh>
+            <scale>0.5 0.5 0.5</scale>
+            <uri>model://a2rl_gate/gate.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

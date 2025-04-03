@@ -20,10 +20,10 @@
         </inertia>
       </inertial>
       <collision name='base_collision'>
-        <pose>0 0 -0.08 0 0 0</pose>
+        <pose>0 0 -0.05 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.47 0.47 0.23</size>
+            <size>0.47 0.47 0.10</size>
           </box>
         </geometry>
         <surface>
@@ -51,93 +51,6 @@
           <ambient>0.05 0.05 0.05</ambient>
           <diffuse>0.05 0.05 0.05</diffuse>
           <specular>1 1 1 1</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
-        </material>
-      </visual>
-
-      <visual name='front_left_leg_visual'>
-        <pose>0.123 0.22 -0.11 0 0 0</pose>
-        <geometry>
-          <cylinder>
-            <radius>0.005</radius>
-            <length>0.17</length>
-          </cylinder>
-        </geometry>
-        <material>
-          <ambient>0.05 0.05 0.05</ambient>
-          <diffuse>0.05 0.05 0.05</diffuse>
-          <specular>0.01 0.01 0.01 1.0</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
-        </material>
-      </visual>
-      <visual name='front_right_leg_visual'>
-        <pose>0.123 -0.22 -0.11 0 0 0</pose>
-        <geometry>
-          <cylinder>
-            <radius>0.005</radius>
-            <length>0.17</length>
-          </cylinder>
-        </geometry>
-        <material>
-          <ambient>0.05 0.05 0.05</ambient>
-          <diffuse>0.05 0.05 0.05</diffuse>
-          <specular>0.01 0.01 0.01 1.0</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
-        </material>
-      </visual>
-      <visual name='rear_left_leg_visual'>
-        <pose>-0.140 0.21 -0.11 0 0 0</pose>
-        <geometry>
-          <cylinder>
-            <radius>0.005</radius>
-            <length>0.17</length>
-          </cylinder>
-        </geometry>
-        <material>
-          <ambient>0.05 0.05 0.05</ambient>
-          <diffuse>0.05 0.05 0.05</diffuse>
-          <specular>0.01 0.01 0.01 1.0</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
-        </material>
-      </visual>
-      <visual name='rear_right_leg_visual'>
-        <pose>-0.140 -0.21 -0.11 0 0 0</pose>
-        <geometry>
-          <cylinder>
-            <radius>0.005</radius>
-            <length>0.17</length>
-          </cylinder>
-        </geometry>
-        <material>
-          <ambient>0.05 0.05 0.05</ambient>
-          <diffuse>0.05 0.05 0.05</diffuse>
-          <specular>0.01 0.01 0.01 1.0</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
         </material>
       </visual>
  
@@ -161,6 +74,33 @@
       <sensor name="navsat_sensor" type="navsat">
         <always_on>1</always_on>
         <update_rate>30</update_rate>
+      </sensor>
+      <sensor name="camera" type="camera">
+        <pose degrees="true">0 0 0.05 0 -20 0</pose>
+        <camera>
+          <horizontal_fov>1.9</horizontal_fov>
+          <image>
+            <width>1280</width>
+            <height>720</height>
+          </image>
+          <clip>
+            <near>0.05</near>
+            <far>15000</far>
+          </clip>
+        </camera>
+
+        <always_on>1</always_on>
+        <update_rate>30</update_rate>
+        <visualize>0</visualize>
+
+        <!-- <plugin name="GstCameraPlugin"
+            filename="GstCameraPlugin">
+          <udp_host>127.0.0.1</udp_host>
+          <udp_port>5600</udp_port>
+          <use_basic_pipeline>true</use_basic_pipeline>
+          <use_cuda>true</use_cuda>
+        </plugin> -->
+
       </sensor>
 
     </link>
@@ -239,15 +179,9 @@
           </mesh>
         </geometry>
         <material>
-          <ambient>0 0 1</ambient>
-          <diffuse>0 0 1</diffuse>
+          <ambient>1 0 1</ambient>
+          <diffuse>1 0 1</diffuse>
           <specular>1 1 1 1</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
         </material>
       </visual>
       <gravity>1</gravity>
@@ -313,15 +247,9 @@
           </mesh>
         </geometry>
         <material>
-          <ambient>0 0 1 1</ambient>
-          <diffuse>0 0 1 1</diffuse>
+          <ambient>0 0 0</ambient>
+          <diffuse>0 0 0</diffuse>
           <specular>1 1 1 1</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
         </material>
       </visual>
       <gravity>1</gravity>
@@ -387,15 +315,9 @@
           </mesh>
         </geometry>
         <material>
-          <ambient>0 1 0</ambient>
-          <diffuse>0 1 0</diffuse>
+          <ambient>1 0 1</ambient>
+          <diffuse>1 0 1</diffuse>
           <specular>1 1 1 1</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
         </material>
       </visual>
       <gravity>1</gravity>
@@ -461,15 +383,9 @@
           </mesh>
         </geometry>
         <material>
-          <ambient>0 1 0</ambient>
-          <diffuse>0 1 0</diffuse>
+          <ambient>0 0 0</ambient>
+          <diffuse>0 0 0</diffuse>
           <specular>1 1 1 1</specular>
-          <pbr>
-            <metal>
-              <metalness>0.5</metalness>
-              <roughness>0.5</roughness>
-            </metal>
-          </pbr>
         </material>
       </visual>
       <gravity>1</gravity>
