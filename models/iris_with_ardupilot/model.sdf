@@ -652,7 +652,24 @@
       <area>0.00128</area>
       <air_density>1.2041</air_density>
       <cp>-0.054 0 0</cp>
-      <forward>0 -1 0</forward>
+      <forward>0.866 -0.5 0</forward>
+      <upward>0 0 1</upward>
+      <link_name>iris_with_standoffs::rotor_0</link_name>
+    </plugin>
+    <plugin filename="gz-sim-lift-drag-system"
+        name="gz::sim::systems::LiftDrag">
+      <a0>0.3</a0>
+      <alpha_stall>1.4</alpha_stall>
+      <cla>4.2500</cla>
+      <cda>0.10</cda>
+      <cma>0.0</cma>
+      <cla_stall>-0.025</cla_stall>
+      <cda_stall>0.0</cda_stall>
+      <cma_stall>0.0</cma_stall>
+      <area>0.00128</area>
+      <air_density>1.2041</air_density>
+      <cp>-0.054 0 0</cp>
+      <forward>-0.866 -0.5 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_0</link_name>
     </plugin>
@@ -688,6 +705,24 @@
       <air_density>1.2041</air_density>
       <cp>-0.054 0 0</cp>
       <forward>0 -1 0</forward>
+      <forward>0.866 -0.5 0</forward>
+      <upward>0 0 1</upward>
+      <link_name>iris_with_standoffs::rotor_1</link_name>
+    </plugin>
+    <plugin filename="gz-sim-lift-drag-system"
+        name="gz::sim::systems::LiftDrag">
+      <a0>0.3</a0>
+      <alpha_stall>1.4</alpha_stall>
+      <cla>4.2500</cla>
+      <cda>0.10</cda>
+      <cma>0.0</cma>
+      <cla_stall>-0.025</cla_stall>
+      <cda_stall>0.0</cda_stall>
+      <cma_stall>0.0</cma_stall>
+      <area>0.00128</area>
+      <air_density>1.2041</air_density>
+      <cp>-0.054 0 0</cp>
+      <forward>-0.866 -0.5 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_1</link_name>
     </plugin>
@@ -705,7 +740,7 @@
       <area>0.00128</area>
       <air_density>1.2041</air_density>
       <cp>0.054 0 0</cp>
-      <forward>0 -1 0</forward>
+      <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_2</link_name>
     </plugin>
@@ -722,7 +757,24 @@
       <area>0.00128</area>
       <air_density>1.2041</air_density>
       <cp>-0.054 0 0</cp>
-      <forward>0 1 0</forward>
+      <forward>0.866 -0.5 0</forward>
+      <upward>0 0 1</upward>
+      <link_name>iris_with_standoffs::rotor_2</link_name>
+    </plugin>
+    <plugin filename="gz-sim-lift-drag-system"
+        name="gz::sim::systems::LiftDrag">
+      <a0>0.3</a0>
+      <alpha_stall>1.4</alpha_stall>
+      <cla>4.2500</cla>
+      <cda>0.10</cda>
+      <cma>0.0</cma>
+      <cla_stall>-0.025</cla_stall>
+      <cda_stall>0.0</cda_stall>
+      <cma_stall>0.0</cma_stall>
+      <area>0.00128</area>
+      <air_density>1.2041</air_density>
+      <cp>0.054 0 0</cp>
+      <forward>-0.866 -0.5 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_2</link_name>
     </plugin>
@@ -740,7 +792,7 @@
       <area>0.00128</area>
       <air_density>1.2041</air_density>
       <cp>0.054 0 0</cp>
-      <forward>0 -1 0</forward>
+      <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_3</link_name>
     </plugin>
@@ -757,10 +809,28 @@
       <area>0.00128</area>
       <air_density>1.2041</air_density>
       <cp>-0.054 0 0</cp>
-      <forward>0 1 0</forward>
+      <forward>0.866 -0.5 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_3</link_name>
     </plugin>
+    <plugin filename="gz-sim-lift-drag-system"
+        name="gz::sim::systems::LiftDrag">
+      <a0>0.3</a0>
+      <alpha_stall>1.4</alpha_stall>
+      <cla>4.2500</cla>
+      <cda>0.10</cda>
+      <cma>0.0</cma>
+      <cla_stall>-0.025</cla_stall>
+      <cda_stall>0.0</cda_stall>
+      <cma_stall>0.0</cma_stall>
+      <area>0.00128</area>
+      <air_density>1.2041</air_density>
+      <cp>-0.054 0 0</cp>
+      <forward>-0.866 -0.5 0</forward>
+      <upward>0 0 1</upward>
+      <link_name>iris_with_standoffs::rotor_3</link_name>
+    </plugin>
+
 
     <plugin filename="gz-sim-apply-joint-force-system"
       name="gz::sim::systems::ApplyJointForce">
