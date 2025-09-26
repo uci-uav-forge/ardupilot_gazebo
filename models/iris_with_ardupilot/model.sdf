@@ -41,7 +41,7 @@
         </material>
       </visual>
       <visual name='rotor_0_visual_cp'>
-        <pose>0.084 0 0 0 0 0</pose>
+        <pose>0.054 0 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -53,7 +53,7 @@
         </material>
       </visual>
       <visual name='rotor_0_visual_cp_forward'>
-        <pose>0.084 0.02 0 0 0 0</pose>
+        <pose>0.054 0.02 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -65,7 +65,7 @@
         </material>
       </visual>
       <visual name='rotor_0_visual_cp_upward'>
-        <pose>0.084 0 0.02 0 0 0</pose>
+        <pose>0.054 0 0.02 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -105,7 +105,7 @@
         </material>
       </visual>
       <visual name='rotor_0_visual_cp'>
-        <pose>-0.084 0 0 0 0 0</pose>
+        <pose>-0.054 0 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -117,7 +117,7 @@
         </material>
       </visual>
       <visual name='rotor_0_visual_cp_forward'>
-        <pose>-0.084 -0.02 0 0 0 0</pose>
+        <pose>-0.054 -0.02 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -129,7 +129,7 @@
         </material>
       </visual>
       <visual name='rotor_0_visual_cp_upward'>
-        <pose>-0.084 0 0.02 0 0 0</pose>
+        <pose>-0.054 0 0.02 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -192,7 +192,7 @@
         </material>
       </visual>
       <visual name='rotor_1_visual_cp'>
-        <pose>0.084 0 0 0 0 0</pose>
+        <pose>0.054 0 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -204,7 +204,7 @@
         </material>
       </visual>
       <visual name='rotor_1_visual_cp_forward'>
-        <pose>0.084 0.02 0 0 0 0</pose>
+        <pose>0.054 0.02 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -216,7 +216,7 @@
         </material>
       </visual>
       <visual name='rotor_1_visual_cp_upward'>
-        <pose>0.084 0 0.02 0 0 0</pose>
+        <pose>0.054 0 0.02 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -256,7 +256,7 @@
         </material>
       </visual>
       <visual name='rotor_1_visual_cp'>
-        <pose>-0.084 0 0 0 0 0</pose>
+        <pose>-0.054 0 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -268,7 +268,7 @@
         </material>
       </visual>
       <visual name='rotor_1_visual_cp_forward'>
-        <pose>-0.084 -0.02 0 0 0 0</pose>
+        <pose>-0.054 -0.02 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -280,7 +280,7 @@
         </material>
       </visual>
       <visual name='rotor_1_visual_cp_upward'>
-        <pose>-0.084 0 0.02 0 0 0</pose>
+        <pose>-0.054 0 0.02 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -343,7 +343,7 @@
         </material>
       </visual>
       <visual name='rotor_2_visual_cp'>
-        <pose>0.084 0 0 0 0 0</pose>
+        <pose>0.054 0 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -355,7 +355,7 @@
         </material>
       </visual>
       <visual name='rotor_2_visual_cp_forward'>
-        <pose>0.084 -0.02 0 0 0 0</pose>
+        <pose>0.054 -0.02 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -367,7 +367,7 @@
         </material>
       </visual>
       <visual name='rotor_2_visual_cp_upward'>
-        <pose>0.084 0 0.02 0 0 0</pose>
+        <pose>0.054 0 0.02 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -407,7 +407,7 @@
         </material>
       </visual>
       <visual name='rotor_2_visual_cp'>
-        <pose>-0.084 0 0 0 0 0</pose>
+        <pose>-0.054 0 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -419,7 +419,7 @@
         </material>
       </visual>
       <visual name='rotor_2_visual_cp_forward'>
-        <pose>-0.084 0.02 0 0 0 0</pose>
+        <pose>-0.054 0.02 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -431,7 +431,7 @@
         </material>
       </visual>
       <visual name='rotor_2_visual_cp_upward'>
-        <pose>-0.084 0 0.02 0 0 0</pose>
+        <pose>-0.054 0 0.02 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -494,7 +494,7 @@
         </material>
       </visual>
       <visual name='rotor_3_visual_cp'>
-        <pose>0.084 0 0 0 0 0</pose>
+        <pose>0.054 0 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -506,7 +506,7 @@
         </material>
       </visual>
       <visual name='rotor_3_visual_cp_forward'>
-        <pose>0.084 -0.02 0 0 0 0</pose>
+        <pose>0.054 -0.02 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -518,7 +518,7 @@
         </material>
       </visual>
       <visual name='rotor_3_visual_cp_upward'>
-        <pose>0.084 0 0.02 0 0 0</pose>
+        <pose>0.054 0 0.02 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -558,7 +558,7 @@
         </material>
       </visual>
       <visual name='rotor_3_visual_cp'>
-        <pose>-0.084 0 0 0 0 0</pose>
+        <pose>-0.054 0 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -570,7 +570,7 @@
         </material>
       </visual>
       <visual name='rotor_3_visual_cp_forward'>
-        <pose>-0.084 0.02 0 0 0 0</pose>
+        <pose>-0.054 0.02 0 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -582,7 +582,7 @@
         </material>
       </visual>
       <visual name='rotor_3_visual_cp_upward'>
-        <pose>-0.084 0 0.02 0 0 0</pose>
+        <pose>-0.054 0 0.02 0 0 0</pose>
         <geometry>
           <sphere>
             <radius>0.003</radius>
@@ -632,9 +632,9 @@
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.00128</area>
       <air_density>1.2041</air_density>
-      <cp>0.084 0 0</cp>
+      <cp>0.054 0 0</cp>
       <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_0</link_name>
@@ -649,9 +649,9 @@
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.00128</area>
       <air_density>1.2041</air_density>
-      <cp>-0.084 0 0</cp>
+      <cp>-0.054 0 0</cp>
       <forward>0 -1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_0</link_name>
@@ -667,9 +667,9 @@
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.00128</area>
       <air_density>1.2041</air_density>
-      <cp>0.084 0 0</cp>
+      <cp>0.054 0 0</cp>
       <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_1</link_name>
@@ -684,9 +684,9 @@
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.00128</area>
       <air_density>1.2041</air_density>
-      <cp>-0.084 0 0</cp>
+      <cp>-0.054 0 0</cp>
       <forward>0 -1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_1</link_name>
@@ -702,9 +702,9 @@
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.00128</area>
       <air_density>1.2041</air_density>
-      <cp>0.084 0 0</cp>
+      <cp>0.054 0 0</cp>
       <forward>0 -1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_2</link_name>
@@ -719,9 +719,9 @@
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.00128</area>
       <air_density>1.2041</air_density>
-      <cp>-0.084 0 0</cp>
+      <cp>-0.054 0 0</cp>
       <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_2</link_name>
@@ -737,9 +737,9 @@
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.00128</area>
       <air_density>1.2041</air_density>
-      <cp>0.084 0 0</cp>
+      <cp>0.054 0 0</cp>
       <forward>0 -1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_3</link_name>
@@ -754,9 +754,9 @@
       <cla_stall>-0.025</cla_stall>
       <cda_stall>0.0</cda_stall>
       <cma_stall>0.0</cma_stall>
-      <area>0.002</area>
+      <area>0.00128</area>
       <air_density>1.2041</air_density>
-      <cp>-0.084 0 0</cp>
+      <cp>-0.054 0 0</cp>
       <forward>0 1 0</forward>
       <upward>0 0 1</upward>
       <link_name>iris_with_standoffs::rotor_3</link_name>
