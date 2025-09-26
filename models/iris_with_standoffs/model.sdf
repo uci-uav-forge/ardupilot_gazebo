@@ -174,8 +174,8 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.64 0.64 0.64</scale>
-            <uri>package://ardupilot_gazebo/models/iris_with_standoffs/meshes/iris_prop_ccw.dae</uri>
+            <scale>1 1 1</scale>
+            <uri>package://ardupilot_gazebo/models/iris_with_standoffs/meshes/triblade.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -208,7 +208,7 @@
       </physics>
     </joint>
     <link name='rotor_1'>
-      <pose>-0.134 0.134 0.023 0 0 0</pose>
+      <pose>-0.134 0.134 0.018 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.015</mass>
@@ -242,8 +242,8 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.64 0.64 0.64</scale>
-            <uri>package://ardupilot_gazebo/models/iris_with_standoffs/meshes/iris_prop_ccw.dae</uri>
+            <scale>1 1 1</scale>
+            <uri>package://ardupilot_gazebo/models/iris_with_standoffs/meshes/triblade.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -276,7 +276,7 @@
       </physics>
     </joint>
     <link name='rotor_2'>
-      <pose>0.134 0.105 0.023 0 0 0</pose>
+      <pose>0.134 0.105 0.018 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.015</mass>
@@ -310,8 +310,8 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.64 0.64 0.64</scale>
-            <uri>package://ardupilot_gazebo/models/iris_with_standoffs/meshes/iris_prop_cw.dae</uri>
+            <scale>1 1 1</scale>
+            <uri>package://ardupilot_gazebo/models/iris_with_standoffs/meshes/triblade.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -344,7 +344,7 @@
       </physics>
     </joint>
     <link name='rotor_3'>
-      <pose>-0.134 -0.134 0.023 0 0 0</pose>
+      <pose>-0.134 -0.134 0.018 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.015</mass>
@@ -378,8 +378,8 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <scale>0.64 0.64 0.64</scale>
-            <uri>package://ardupilot_gazebo/models/iris_with_standoffs/meshes/iris_prop_cw.dae</uri>
+            <scale>1 1 1</scale>
+            <uri>package://ardupilot_gazebo/models/iris_with_standoffs/meshes/triblade.dae</uri>
           </mesh>
         </geometry>
         <material>
