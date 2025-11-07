@@ -20,10 +20,10 @@
       <collision name="fuselage_collision">
         <pose>0.2 0 -0.05 0 1.570796327 0</pose>
         <geometry>
-          <capsule>
+          <cylinder>
             <radius>0.1</radius>
             <length>1.1</length>
-          </capsule>
+          </cylinder>
         </geometry>
       </collision>
       <collision name="left_wing_collision">
