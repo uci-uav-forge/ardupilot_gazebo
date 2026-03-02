@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="waterbottle_8oz">
+    <static>false</static>
+    <link name="body">
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.25</mass>
+        <inertia>
+          <ixx>0.000408</ixx>
+          <ixy>0.00</ixy>
+          <ixz>0.00</ixz>
+          <iyy>0.000408</iyy>
+          <iyz>0.00</iyz>
+          <izz>0.000113</izz>
+        </inertia>
+      </inertial>
+      
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.03</radius>
+            <length>0.13</length>
+          </cylinder>
+        </geometry>
+        <surface>
+          <bounce>
+            <restitution_coefficient>0.4</restitution_coefficient>
+            <threshold>0.01</threshold>
+          </bounce>
+          <contact>
+            <ode>
+              <max_vel>10.0</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      
+      <visual name="visual">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>meshes/waterbottle.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <plugin name="gz::sim::systems::LiftDrag"
+        filename="gz-sim-lift-drag-system">
+      <a0>0</a0>
+      <cla>0</cla> <cda>0.008</cda> <alpha_stall>1.5708</alpha_stall>
+      <cla_stall>0</cla_stall>
+      <cda_stall>0.008</cda_stall> <cp>0 0 0</cp> <area>0.0078</area> <air_density>1.204</air_density>
+      <forward>1 0 0</forward>
+      <upward>0 0 1</upward>
+      <link_name>body</link_name>
+    </plugin>
+  </model>
+</sdf>
