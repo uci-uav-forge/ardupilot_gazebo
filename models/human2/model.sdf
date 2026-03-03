@@ -14,6 +14,7 @@
       </collision>
       
       <visual name="visual">
+        <pose degrees="true">0 0 0 0 0 180</pose>
         <geometry>
           <mesh>
             <scale>1 1 1</scale>
