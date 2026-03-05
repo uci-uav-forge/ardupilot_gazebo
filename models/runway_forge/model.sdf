@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<sdf version="1.9">
+  <model name="runway_forge">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+          </plane>
+        </geometry>
+      </collision>
+      <visual name="airfield">
+        <pose>0 0 -0.01 0 0 0</pose>
+        <cast_shadows>false</cast_shadows>
+        <geometry>
+          <mesh>
+            <uri>model://runway_forge/meshes/terrain_simple.dae</uri>
+          </mesh>
+        </geometry>
+        
+      </visual>
+    </link>
+  </model>
+</sdf>
