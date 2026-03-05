@@ -18,7 +18,21 @@
             <uri>model://runway_forge/meshes/terrain_simple.dae</uri>
           </mesh>
         </geometry>
-        
+        <material>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>materials/textures/Ground013_4K-JPG_Color.jpg</albedo_map>
+              <ambient_occlusion_map>materials/textures/Ground013_4K-JPG_AmbientOcclusion.jpg</ambient_occlusion_map>
+              <normal_map>materials/textures/Ground013_4K-JPG_NormalGL.jpg</normal_map>
+              <roughness_map>materials/textures/Ground013_4K-JPG_Roughness.jpg</roughness_map>
+              <roughness>0.6</roughness>
+              <metalness>0</metalness>
+            </metal>
+          </pbr>
+        </material>
       </visual>
     </link>
   </model>
